@@ -1,2 +1,3 @@
-# mapper
-Simple one-pager to map both xsl and jq to and from both xml and json
+# Covid DCC QR scanner
+Simple one-pager to scan the QR code and read what is inside it. 
+Personal information stays client side
