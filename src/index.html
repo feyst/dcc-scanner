@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Covid scanner</title>
+<!--    <link rel="icon" href="icon.svg">-->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Covid QR scanner, show information inside the DCC (digital covid certificate) QR">
+</head>
+<body>
+<header style="grid-area:bar;">
+    <h1 style="display: inline;margin-right:10px;">Covid QR scanner 2</h1>
+    <div id="networkStatus"/>
+</header>
+<section class="content">
+    <button id="scan">Scan</button>
+    <video id="scanner" style="width: 100%;display: none;"></video>
+    <br/>
+    <textarea id="qrInput" style="width: 600px;height: 400px;"></textarea>
+    <textarea id="qrOutput" style="width: 600px;height: 400px;"></textarea>
+</section>
+<footer> </footer>
+</body>
+</html>

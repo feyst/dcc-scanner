@@ -1,0 +1,35 @@
+{
+  "name": "covid-qr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "build-production": "npm install && webpack --mode=production"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@zxing/library": "^0.18.6",
+    "base45": "^3.0.0",
+    "base45-web": "^1.0.2",
+    "bignumber.js": "^9.0.1",
+    "buffer": "^6.0.3",
+    "cbor-js": "^0.1.0",
+    "cbor-web": "^7.0.6",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.2",
+    "jquery": "^3.6.0",
+    "node-inspect-extracted": "^1.0.8",
+    "pako": "^2.0.3",
+    "qr-scanner": "^1.2.0",
+    "qr.js": "0.0.0",
+    "qrious": "^4.0.2",
+    "webpack": "^5.44.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "devDependencies": {
+    "file-loader": "^6.2.0",
+    "webpack-cli": "^4.7.2"
+  }
+}
