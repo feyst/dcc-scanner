@@ -2,23 +2,18 @@ import $ from 'jquery'
 // import { MultiFormatReader, BarcodeFormat } from '@zxing/library';
 import QrScanner from 'qr-scanner';
 import QrScannerWorkerPath from '!!file-loader!../node_modules/qr-scanner/qr-scanner-worker.min.js';
-import qrjs from 'qr.js'
-import QRious from 'qrious'
 
 import base45 from 'base45'
 import b45 from 'base45-web'
-// import Cbor from 'cbor-web'
 
 import pako from 'pako'
 
 
 
-const cbor = require('cbor-web')
 const cbor2 = require('cbor-js')
 const { inspect } = require('node-inspect-extracted')
 const { Buffer } = require('buffer')
 
-window.cbor = cbor
 window.cbor2 = cbor2
 window.inspect = inspect
 window.Buffer = Buffer

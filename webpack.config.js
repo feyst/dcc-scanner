@@ -1,5 +1,7 @@
 const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
+const WorkboxPlugin = require('workbox-webpack-plugin')
+const WebpackPwaManifest = require('webpack-pwa-manifest')
 
 module.exports = (env, argv) => {
     let config = {
@@ -31,11 +33,7 @@ module.exports = (env, argv) => {
                 theme_color: '#ffffff',
                 icons: [
                     {
-                        src: path.resolve('src/icon.svg'),
-                        sizes: [150]
-                    },
-                    {
-                        src: path.resolve('src/icon-512.png'),
+                        src: path.resolve('src/qr.png'),
                         sizes: [512]
                     },
                 ]
