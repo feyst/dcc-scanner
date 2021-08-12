@@ -2,5 +2,5 @@
 Simple one-pager to scan the QR code and read what is inside it. 
 All information stays client side
 
-##Credits
+## Credits
 Icon made by https://www.freepik.com from www.flaticon.com
